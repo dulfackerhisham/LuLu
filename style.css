@@ -1,0 +1,548 @@
+/* universal selector starts*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/* universal selector ends */
+
+/* navigation bar starts */
+.nav{
+    height: 119px;
+    border-bottom: #c4922f 3px solid;
+}
+.nav-container{
+    margin: 0px 175px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container img{
+    margin: 25px 0px 25px 15px;
+    height: 64px;
+}
+
+.language-switch{
+    color: #666666;
+}
+
+.menu{
+    height: 118.8px;
+}
+.menu ul{
+    display: flex;
+}
+.top-nav a{
+    margin: 0px 15px;
+    color: #666666;
+}
+.icons:hover{
+    color: black;
+}
+.top-nav{
+    margin: 20px 0 0 450px;
+}
+.bottom-nav{
+    margin-top: 35px;
+}
+.bottom-nav a{
+    margin: 0 24px;
+    color: #333333;
+    font-size: 16px;
+}
+.menu-hover:hover{
+    color: #c4922f;
+    border-bottom: #c4922f 3.8px solid;
+    padding-bottom: 22.5px;
+}
+#home{
+    color: #c4922f;
+    border-bottom: #c4922f 3.8px solid;
+    padding-bottom: 22.5px;
+}
+/* navigation bar ends */
+
+/* main starts */
+/*styling video starts*/
+.video-container video{
+    position: absolute;
+    width: 100%;
+    height: 680px;
+    object-fit: fill;
+    filter: brightness(77%);
+}
+.text-overlay{
+    position: absolute;
+    display: grid;
+    grid-template-rows:94px 210px 100px;
+    width: 100%;
+    height: 370px;
+    text-align: center;
+    margin-top: 290px;
+    color: white;
+}
+.text-overlay h1{
+    font-size: 40px;
+}
+.text-overlay p{
+    font-size: 20px;
+}
+
+.down-arrow img{
+    height: 27px;
+}
+/*styling video ends*/
+
+/* lulu news starts*/
+.lulu-news{
+    margin-top: 680.5px;
+    display: flex;
+}
+.latest-news{
+    background-color: #eaf0f6;
+    height: 80px;
+    width: 24%;
+    text-align: end;
+}
+.latest-news h1{
+    margin: 20px 60px 20px 0px;
+}
+.news-elements{
+    background-color: #eaf0f6;
+    width: 60%;
+    height: 80px;
+    margin-left: 2px;
+}
+.news-elements p{
+    margin: 25.3px 0px 25.3px 40px;
+    color: #009ccf;
+    font-size: 18px;
+}
+.buttons{
+    width: 26.4%;
+    background-color: #eaf0f6;
+    height: 80px;
+    margin-left: 912.1px;
+    margin-top: -92.5px;
+}
+.back-icon{
+    height: 28px;
+    cursor: pointer;
+    margin-top: 23px;
+}
+.next-icon{
+    height: 28px;
+    cursor: pointer;
+    margin-top: 23px;
+}
+/* lulu news ends*/
+
+/* lulu business sectors starts*/
+.article-main{
+    margin: 0 241px;
+    height: 136vh;
+    margin-top: 40px;
+}
+.article-1 h3{
+    font-size: 26px;
+}
+.images{
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.big-img-container h3{
+    position: absolute;
+    margin:-230px 0 0 210px;
+}
+#big-img{
+    height: 400px;
+    margin-top: 30px;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+.small-4-images img{
+    height: 183px;
+    margin-left: 30px;
+    margin-top: 30px;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+.small-4-images .text-1{
+    position: absolute;
+    margin: -105px 0 0 70px ;
+    font-size: 20px;
+    font-weight: 600;
+}
+.small-4-images .text-2{
+    position: absolute;
+    margin: -105px 0 0 330px ;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.article-2{
+    margin-top: 100px;
+    display: flex;
+}
+.box-1{
+    background: linear-gradient(to bottom right, #4b535c 48%,#5c656e 0%);
+    width: 40%;
+    height: 373px;
+}
+.box-1 img{
+    height: 354px;
+    margin: 19px 0 0 110px;
+}
+.content-box-1{
+    margin-top: -330px;
+    padding-left: 30px;
+    color: white;
+}
+.content-box-1 i{
+    margin-top: 15px;
+    padding: 7px 20px;
+    border: #6d757d solid 1px;
+    color: #fff;
+    cursor: pointer;
+}
+.content-box-1 i:hover{
+    background-color: white;
+    color: #333333;
+    transition: .6s;
+}
+.content-box-1 #small-font{
+    font-size: 14px;
+    color: #a4a9ae;
+}
+
+.box-2{
+    width: 30%;
+    height: 373px;
+    background-color: #c4922f;
+    color: white;
+    padding: 30px ;
+    margin-left: 24px;
+}
+.box-2 h3{
+    color: black;
+}
+.box-2 #p-1{
+    margin-top: 25px;
+}
+.box-2 #p-2{
+    margin-top: 40px;
+}
+.box-2 #p-3{
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.wrapper{
+    position: relative;
+}
+.box-3-1 img{
+    height: 170px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.box-3-1 p{
+    position: absolute;
+    margin: -100px 0 0 90px;
+    color: white;
+}
+.box-3-2 img{
+    height: 170px;
+    margin: 28px 20px;
+    cursor: pointer;
+}
+.box-3-2 p{
+    position: absolute;
+    margin: -125px 0 0 70px;
+    color: white;
+}
+/* lulu business sectors ends*/
+
+/* News & Events starts */
+.news-and-events{
+    background-color: #eaf0f6;
+    height: 130vh;
+}
+.news-and-events-wrapper{
+    margin: 0 241px;
+}
+.texts{
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    padding-top: 80px;
+}
+.texts a{
+    color: #333333;
+}
+
+.grid{
+    height: 760px;
+    display: grid;
+    grid-template-columns: 31% 31% 32%;
+    grid-template-rows: 370px;
+    grid-gap: 20px;
+}
+.grid .card-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    cursor: pointer;
+
+}
+.grid .photo-main{
+    height: 100%;
+    width: 100%;
+}
+.card-1 .title{
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    margin-top: -103px;
+    height: 99px;
+    padding: 15px;
+}
+.card-1 .title p{
+    color: #fff;
+}
+.grid .date-and-news{
+    display: flex;
+    justify-content: space-between;
+    color: #cccccc;
+    font-size: 12px;
+}
+.title .title-1{
+    margin-top: 20px;
+}
+.grid .photos{
+    width: 100%;
+}
+
+.grid .wrap{
+    padding: 20px;
+}
+.wrap .wrap-sub-head{
+    margin-top: 25px;
+    font-size: 14px;
+}
+.wrap .wrap-sub-head:hover{
+    color: #d19e38;
+    transition: .2s;
+}
+
+.grid .card-2{
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.grid .card-3{
+    background-color: white;
+    cursor: pointer;
+
+}
+.grid .card-4{
+    background-color: white;
+    cursor: pointer;
+
+}
+.grid .card-5{
+    background-color: white;
+    cursor: pointer;
+}
+
+/* LuLu map starts */
+.lulu-map{
+    margin: 0 241px;
+    height: 120vh;
+    text-align: center;
+}
+.lulu-map h4{
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 80px;
+}
+
+.lulu-stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.stats .s-1{
+    color: #d19e38;
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.stats .s-2{
+    color: #525a62;
+    font-size: 17px;
+    line-height: 28px;
+}
+.lulu-stats .border-line{
+    border-right: 1px #eee solid;
+    padding-right: 54px;
+}
+.lulu-map h5{
+    font-size: 22px;
+    margin-top: 90px;
+    color: #d1b271;
+}
+.lulu-map img{
+    width: 100%;
+    margin-top: 50px;
+}
+/* LuLu map ends*/
+
+
+/* <!-- lulu iniatives starts--> */
+.lulu-initiatives img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+.lulu-initiatives .initiative-box{
+    height: 340px;
+    width: 378px;
+    background-color: #d19e38;
+    top: 0;
+    left: 30%;
+    position: absolute;
+    padding: 50px;
+}
+.lulu-initiatives{
+    position: relative;
+}
+.initiative-box h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+}
+.initiative-box p{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.initiative-box a{
+    border: 1px #eee solid;
+    color:white;
+    padding: 6px;
+}
+.initiative-box a:hover{
+    background-color: white;
+    color: #4b535c;
+    transition: .3s;
+}
+.btn-div{
+    margin-top: 30px;
+}
+/* <!-- lulu iniatives ends--> */
+
+/* <!-- LuLu projects starts --> */
+.projects{
+    margin: 0 241px;
+   display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.projects img{
+    height: 280px;
+    filter: brightness(70%);
+    position: relative;
+    cursor: pointer;
+
+}
+.projects #proj-1{
+    margin: 140px 0 0 175px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.projects #proj-2{
+    position: absolute;
+    color: white;
+    margin: 140px 0 0 730px;
+    font-size: 24px;
+    font-weight: 400;
+}
+/* <!-- LuLu projects ends --> */
+
+
+/* footer starts */
+footer{
+    height: 290px;
+    background-color: #333333;
+    margin-top: 100px;
+}
+.footer-wrapper{
+    margin: 0 241px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 120px;
+    border-bottom: 1px solid #4e4f51;
+}
+.footer-wrapper img{
+    width: 17px;
+    color: white;
+    margin: 0 15px;
+    cursor: pointer;
+}
+.footer-wrapper span{
+    color: white;
+    margin-top: 60px;
+    cursor: pointer;
+}
+
+.footer-wrapper-2{
+    margin: 0 241px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-1{
+    margin-top: 35px;
+}
+.foot-1 i{
+    padding: 10px;
+    cursor: pointer;
+}
+.foot-1 i:hover{
+    background-color: #d19e38;
+    transition: .5s;
+}
+.foot-1 p{
+    font-size: 14px;
+    color: #a5a5a5;
+    cursor: pointer;
+}
+.last-wrapper{
+    background-color: #19191c;
+    color: #555555;
+}
+.footer-end{
+    height: 70px;
+    margin: 0 241px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-end p{
+    padding: 25px 0;
+    font-size: 12px;
+
+}
+
+/* footer ends */
+
+
+
+
+
+
